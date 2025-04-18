@@ -1,3 +1,5 @@
+from auto_commit import git_auto_push
+
 movie = ['어벤져스', '아이언맨', '토르', '스파이더맨']
 
 movie += ['엑스맨']
@@ -30,6 +32,4 @@ print(movie)
 
 print(sorted_movie)
 
-
-# 함수 호출 예시
-git_auto_push("오늘의 변경사항 커밋")
+git_auto_push("list && tuple")
