@@ -29,3 +29,7 @@ sorted_movie = sorted(movie)
 print(movie)
 
 print(sorted_movie)
+
+
+# 함수 호출 예시
+git_auto_push("오늘의 변경사항 커밋")
